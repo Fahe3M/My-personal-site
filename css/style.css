@@ -1,0 +1,315 @@
+* {
+    color: white;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(63, 1, 157) ;
+
+}
+
+nav a {
+    margin: 2.2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1.2vw;
+    border-radius: 0.5vw;
+    transition: 0.3s all ease;
+}
+
+nav a:hover{
+    font-size: 1.4rem;
+    background-color: rgb(38, 0, 85);
+    
+}
+
+div h3{
+    font-weight: 600;
+    color: black;
+    margin-top: 30vh;
+    margin-left: 15vw;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+.auto-type{
+    padding: 0.25rem;
+    color: white;
+    background-color: rgb(63, 1, 157) ;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: 0.5em 0.5em 1.5em gray;
+}
+.img {
+    height: 25vh;
+    margin-top: 20vh;
+    float: right;
+    margin-right: 10vw;
+    border-radius: 50%;
+    border: 5px solid rgb(63, 1, 157);
+    box-shadow: 10px 10px 20px gray;
+}
+
+
+#hire-me {
+    font-size: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem ;
+
+}
+
+#hire-me:hover {
+    font-size: 1.5rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem ;
+}
+
+.portfolio {
+    height: 80vh;
+    width: 90vw;
+    margin: 5%;
+    margin-top: 20%;
+}
+
+#portfolio {
+    font-size: 2rem;
+    text-shadow: 0rem 0.3rem 1rem rgb(167, 116, 230);
+    color: rgb(63, 1, 157);
+    font-weight: 800;
+    text-align: center;
+    padding: 1vw;
+}
+
+
+.section {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.s-child1, .s-child2{
+    overflow: hidden;
+    padding: 5vh;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 5vw;
+    height: 50vh;
+    width: 20vw;
+    background-color: rgb(63, 1, 157) ;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 5rem rgb(94, 94, 94);
+    text-shadow:0rem 0.3rem 1rem rgb(167, 116, 230) ;
+}
+
+p {
+    font-size: 0.9rem;
+    padding: 10% ;
+    line-height: 1rem;
+}
+
+.services {
+    height: 80vh;
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+#services, #contact {
+    font-size: 2rem;
+    text-shadow: 0rem 0.3rem 1rem rgb(167, 116, 230);
+    color: rgb(63, 1, 157);
+    font-weight: 800;
+    text-align: center;
+    padding: 1vw;
+}
+
+
+.s-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+.contact {
+    border-radius: 3rem;
+    background-color: rgb(235, 235, 235);
+    height: 40vh;
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.c-contact {
+    margin: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.c-child1 {
+    padding: 2%;
+    font-weight: 600;
+    font-size: 2rem;
+    height: 5vh;
+    width: 5%;
+    background-color: rgb(63, 1, 157) ;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 5rem rgb(94, 94, 94);
+    text-shadow:0rem 0.3rem 1rem rgb(167, 116, 230) ;
+    transition: 0.3s all ease;
+}
+
+#icon {
+    font-size: 3rem;
+}
+
+
+
+#footer {
+    color: rgb(63, 1, 157);
+    text-align: center;
+    padding: 1%;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width:1280px) {
+
+    .navbar{
+        background-color: white;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    nav a, #hire-me {
+        transition: 0.5s all ease;
+        text-align: center;
+        width: 100vw;
+        color: black;
+        box-shadow: 0vh 0.1vh 0.1vh;
+        font-size: 3vh;
+        margin: 1vh;
+    } 
+
+    nav a:hover {
+        background-color: white;
+        font-size: 3vh;
+    }
+
+
+    #auto {
+        align-items:center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        background-color: rgb(244, 242, 242);
+        height: 50vh;
+        width: 100vw;
+    }
+
+    div h3{
+        margin-top: 0vh;
+        color: black;
+        padding: 2vh;
+        margin-left: 0%;
+        font-size: 3vh;
+        font-weight: 800;
+    }
+
+    .auto-type {
+        width: auto;
+        font-size: 3vh;
+        
+    }
+
+    img.img {
+        margin-top: 1vh;
+        margin-right: auto;
+        margin-left: auto;
+        display:block;
+    }
+     
+
+    .portfolio{
+        height: 50vh;
+    }
+
+    #portfolio {
+        margin-top: 20vh;
+        font-size: 5vw;
+    }
+
+    .section {
+        margin-top: 5vh;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .s-child1,.s-child2 {
+        margin: 2vw;
+        width: auto;
+        padding: 0.5rem;
+        height:30vh;
+        font-size: 1vh;
+
+    }
+
+    .services {
+        height: 50vh;
+    }
+
+    #services {
+        margin-top: 20vh;
+        font-size: 3vh;
+    }
+
+    p {
+        font-size: 1vh;
+        line-height: 1.2vh;
+    }
+
+    .contact {
+        background-color: rgb(244, 242, 242);
+        height: 20vh;
+        border-radius:0%;
+    }
+
+    #contact {
+        padding-top: 1vh;
+        font-size: 3vh;
+    }
+
+    .c-child1 {
+        border-radius: 10%;
+        padding: 1vh;
+        height: auto;
+        width: 10vw;
+    }
+
+    #icon {
+        font-size: 8vw;
+    }
+
+    #icon-f {
+        color: black;
+
+    }
+    #footer {
+        font-size: 3vw;
+    }
+
+
+}
