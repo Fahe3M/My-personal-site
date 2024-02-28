@@ -3,8 +3,8 @@
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
-
 }
+
 
 .navbar {
     align-items: center;
@@ -16,6 +16,13 @@
 
 }
 
+#name {
+    font-family: "Protest Riot", sans-serif;
+    margin-right: 10vw;
+    font-size: 1.5rem;
+    
+}
+
 nav a {
     margin: 2.2rem;
     color: white;
@@ -24,6 +31,7 @@ nav a {
     padding: 1.2vw;
     border-radius: 0.5vw;
     transition: 0.3s all ease;
+    font-weight: 600;
 }
 
 nav a:hover{
