@@ -201,6 +201,10 @@ p {
         
     }
 
+    #name {
+        width: 100%;
+    }
+
     nav a, #hire-me {
         transition: 0.5s all ease;
         text-align: center;
